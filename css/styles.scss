@@ -45,7 +45,7 @@ body{
         text-align: center;
         font-family: $font;
         color: $fontcolor;
-        padding: 50px;
+        padding: 500px;
     }
 }
 
@@ -54,7 +54,7 @@ body{
     top: 450px;
     width: 100%;
     margin: 20px;
-    margin-top: 60px;
+    padding-bottom: 500px;
     #featured1, #featured2, #featured3 {
         height: 100%;
         width: 33%;
@@ -65,6 +65,7 @@ body{
     position: relative;
     top: 600px;
     margin-top: 60px;
+    padding-bottom: 500px;
     .content {
         width: 100%;
         tr {
@@ -73,6 +74,9 @@ body{
         .contentimg{
             height: 850px;
             width: 100%;
+            :hover {
+                overlay
+            }
         }
     }
     p{
